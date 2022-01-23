@@ -1,0 +1,11 @@
+POST http://localhost:8080/timelines
+Content-Type: application/json
+
+{
+	"title": "Dwarves",
+	"description": "The timeline of the Dwarven race.",
+    "events": [],
+	"active": false
+}
+
+

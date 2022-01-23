@@ -1,0 +1,19 @@
+POST http://localhost:8080/locations
+Content-Type: application/json
+
+{
+	"title": "Faerun",
+	"description": "Faerûn was a major continent on the planet Toril",
+	"active": true
+}
+
+###
+POST http://localhost:8080/locations
+Content-Type: application/json
+
+{
+  "title": "Waterdeep",
+  "description": "Waterdeep, also known as the City of Splendors or the Crown of the North, was the most important and influential city in the North and perhaps in all Faerûn.",
+  "active": false
+}
+
